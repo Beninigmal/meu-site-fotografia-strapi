@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campanhas",
+  "info": {
+    "singularName": "campanha",
+    "pluralName": "campanhas",
+    "displayName": "Campanha"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "imagem": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "data_inicio": {
+      "type": "date"
+    },
+    "data_fim": {
+      "type": "date"
+    },
+    "descricao": {
+      "type": "blocks"
+    },
+    "ativo": {
+      "type": "boolean"
+    },
+    "categoria": {
+      "type": "string"
+    }
+  }
+}

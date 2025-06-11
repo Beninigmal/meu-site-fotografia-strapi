@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sobre_mims",
+  "info": {
+    "singularName": "sobre-mim",
+    "pluralName": "sobre-mims",
+    "displayName": "SobreMim"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foto_perfil": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "biografia": {
+      "type": "blocks"
+    }
+  }
+}

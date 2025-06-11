@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portifolios",
+  "info": {
+    "singularName": "portifolio",
+    "pluralName": "portifolios",
+    "displayName": "Portifolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
